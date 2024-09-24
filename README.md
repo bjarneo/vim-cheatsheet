@@ -2,6 +2,8 @@
 
 A quick reference for essential Vim commands, right in your terminal.
 
+![Demo](demo.gif)
+
 ## Inspiration
 
 Inspired by the [vim for react devs](https://github.com/leerob/vim-for-react-devs) by leerob. Highly recommend this course for beginners.
