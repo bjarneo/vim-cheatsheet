@@ -30,7 +30,7 @@ Inspired by the [vim for react devs](https://github.com/leerob/vim-for-react-dev
    * Open your `.zshrc` file:
 
      ```bash
-     nano ~/.zshrc 
+     vim ~/.zshrc 
      ```
 
    * Add the following line at the end (replace `/path/to/` with the actual path to your `vim_cheat.sh` file):
