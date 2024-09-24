@@ -1,6 +1,6 @@
 # Vim Cheat Sheet
 
-A quick reference for essential Vim commands, right in your terminal.
+A quick reference for essential Vim commands, right in your terminal. Bonus, the lazyvim cheatsheet is added!
 
 ![Demo](demo.gif)
 
@@ -10,7 +10,7 @@ Inspired by the [vim for react devs](https://github.com/leerob/vim-for-react-dev
 
 ## How to Use
 
-1. **Download the script:**
+1. **Download the script(s):**
 
    * You can either:
      * Clone this repository: `git clone https://github.com/bjarneo/vim-cheatsheet.git`
