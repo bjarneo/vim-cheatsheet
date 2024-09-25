@@ -12,9 +12,15 @@ Inspired by the [vim for react devs](https://github.com/leerob/vim-for-react-dev
 
 1. **Download the script(s):**
 
-   * You can either:
+   * You have multiple options:
      * Clone this repository: `git clone https://github.com/bjarneo/vim-cheatsheet.git`
-     * Or, directly download the `vim_cheatsheet.sh` file from this repository.
+     * Directly download the `vim_cheatsheet.sh` file from this repository.
+     * **Use `curl`:**
+
+       ```bash
+       curl -O https://raw.githubusercontent.com/bjarneo/vim-cheatsheet/refs/heads/main/vim_cheatsheet.sh 
+       curl -O https://raw.githubusercontent.com/bjarneo/vim-cheatsheet/refs/heads/main/lazyvim_cheatsheet.sh
+       ```
 
 2. **Make it executable:**
 
@@ -25,25 +31,67 @@ Inspired by the [vim for react devs](https://github.com/leerob/vim-for-react-dev
      chmod +x vim_cheatsheet.sh
      ```
 
-3. **Set the alias (for Zsh users):**
+3. **Set the alias:**
 
-   * Open your `.zshrc` file:
+   * **For Zsh users:**
 
-     ```bash
-     vim ~/.zshrc 
-     ```
+     * Open your `.zshrc` file:
 
-   * Add the following line at the end (replace `/path/to/` with the actual path to your `vim_cheat.sh` file):
+       ```bash
+       vim ~/.zshrc 
+       ```
 
-     ```bash
-     alias vimcheat='/path/to/vim_cheatsheet.sh | less'
-     ```
+     * Add the following line at the end (replace `/path/to/` with the actual path to your `vim_cheat.sh` file):
 
-   * Save the file and either restart your terminal or run:
+       ```bash
+       alias vimcheat='/path/to/vim_cheatsheet.sh | less'
+       ```
 
-     ```bash
-     source ~/.zshrc
-     ```
+     * Save the file and either restart your terminal or run:
+
+       ```bash
+       source ~/.zshrc
+       ```
+
+   * **For Bash users:**
+
+     * Open your `.bashrc` file:
+
+       ```bash
+       vim ~/.bashrc
+       ```
+
+     * Add the following line at the end (replace `/path/to/` with the actual path to your `vim_cheat.sh` file):
+
+       ```bash
+       alias vimcheat='/path/to/vim_cheatsheet.sh | less'
+       ```
+
+     * Save the file and either restart your terminal or run:
+
+       ```bash
+       source ~/.bashrc
+       ```
+
+   * **For Fish users:**
+
+     * Open your `config.fish` file (create it if it doesn't exist):
+
+       ```bash
+       vim ~/.config/fish/config.fish
+       ```
+
+     * Add the following line at the end (replace `/path/to/` with the actual path to your `vim_cheat.sh` file):
+
+       ```fish
+       alias vimcheat '/path/to/vim_cheatsheet.sh | less'
+       ```
+
+     * Save the file and either restart your terminal or run:
+
+       ```fish
+       source ~/.config/fish/config.fish
+       ```
 
 4. **Use the cheat sheet:**
 
